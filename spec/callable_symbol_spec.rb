@@ -1,5 +1,4 @@
-require "callable_symbol/callable_symbol_lib"
-[1,2,3].map(&:to_s.(2))
+require_relative "../lib/callable_symbol/callable_symbol"
 
 # TODO: organize and write more correct descriptions
 describe Symbol do
