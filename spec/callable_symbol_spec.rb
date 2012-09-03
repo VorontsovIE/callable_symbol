@@ -1,4 +1,4 @@
-require 'spec_helper'
+$:.unshift '../lib'
 require 'callable_symbol'
 
 # TODO: organize and write more correct descriptions
