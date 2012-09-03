@@ -1,5 +1,5 @@
-$:.unshift '../lib'
-require 'callable_symbol'
+require "callable_symbol/callable_symbol_lib"
+[1,2,3].map(&:to_s.(2))
 
 # TODO: organize and write more correct descriptions
 describe Symbol do
